@@ -21,10 +21,37 @@
 		"sizes": "192x192"
 		},
 		{
+		"src": "https://julianbrasse.github.io/smilecounter/content/icon.svg",
+		"type": "image/svg",
+		"sizes": "any",
+		"purpose": "maskable"
+		},
+		{
+		"src": "https://julianbrasse.github.io/smilecounter/content/icon_512.png",
+		"type": "image/png",
+		"sizes": "512x512",
+		"purpose": "maskable"
+		},
+		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon_192.png",
 		"type": "image/png",
 		"sizes": "192x192",
 		"purpose": "maskable"
+		}
+	],
+	"screenshots": [
+		{
+		"src": "https://julianbrasse.github.io/smilecounter/content/screenshot.png",
+		"label": "Coming soon...",
+		"type": "image/png",
+		"sizes": "1080x1080"
+		},
+		{
+		"src": "https://julianbrasse.github.io/smilecounter/content/screenshot_wide.png",
+		"form_factor": "wide",
+		"label": "Coming soon...",
+		"type": "image/png",
+		"sizes": "1920x1080"
 		}
 	],
 	"display_override": ["window-control-overlay", "minimal-ui"],

@@ -12,7 +12,7 @@
 		{
 		"src": "content/logo.svg",
 		"type": "image/svg+xml",
-		"sizes": "192x192",
+		"sizes": "192x192"
 		}
 	],
 	"display_override": ["window-control-overlay", "minimal-ui"],

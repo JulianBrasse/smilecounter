@@ -57,5 +57,5 @@
 	"display_override": ["window-control-overlay", "minimal-ui"],
 	"display": "standalone",
 	"background_color": "#3c9",
-	"theme_color": "#3c9"
+	"theme_color": "#369"
 }

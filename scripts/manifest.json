@@ -2,6 +2,7 @@
 	"name": "Smile Counter",
 	"short_name": "SmileCounter",
 	"start_url": "https://julianbrasse.github.io/smilecounter",
+	"id": "/smilecounter",
 	"description": "SmileCounter entsteht als Maturaarbeit von Julian Brasse.",
 	"icons": [
 		{

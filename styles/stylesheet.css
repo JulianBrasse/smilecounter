@@ -4,10 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900");
 
 :root {
+	font-size: 12mm;
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
-}
-
-@media screen and (min-width: 600px) {
 }
 
 * {
@@ -38,5 +36,11 @@ main {
 	& img {
 		margin-right: 1rem;
 		width: 3rem;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	:root {
+		font-size: 4mm !important;
 	}
 }

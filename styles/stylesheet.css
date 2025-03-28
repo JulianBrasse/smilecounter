@@ -25,6 +25,11 @@ header {
 	background-image: linear-gradient(to right, #36c , #3c9);
 }
 
+main {
+	padding: 1rem;
+	background-color: #def;
+}
+
 .logo {
 	display: flex;
 	align-items: center;

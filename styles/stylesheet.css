@@ -3,14 +3,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,75..125,100..900;1,75..125,100..900");
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900");
 
+:root {
+	font-size: 12mm;
+	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
+}
+
 @media screen and (min-width: 600px) {
 	:root {
 		font-size: 4mm;
 	}
-}
-:root {
-	font-size: 12mm;
-	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
 }
 
 * {
@@ -20,6 +21,9 @@
 }
 
 header {
+	position: absolute;
+	bottom: 0;
+	width: -webkit-fill-available;
 	padding: 1rem;
 	display: flex;
 	background-image: linear-gradient(to right, #36c , #3c9);

@@ -1,2 +1,26 @@
 /* Order: @import, :root, *, Elements, Classes, IDs, Attributes, Selectors, Nesting Selectors, Pseudo-Elements, Pseudo-Classes, At-Rules */
 /* Order: Position, Size, Shape, Color, Function */
+
+:root {
+	font-size: 4mm;
+	font-family: Verdana, Georgia, ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+	margin: unset;
+	padding: unset;
+	border: unset;
+}
+
+header {
+	padding: 1rem;
+	display: flex;
+	background-image: linear-gradient(to right, #36c , #3c9);
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #000;
+}

@@ -1,8 +1,12 @@
 /* Order: @import, :root, *, Elements, Classes, IDs, Attributes, Selectors, Nesting Selectors, Pseudo-Elements, Pseudo-Classes, At-Rules */
 /* Order: Position, Size, Shape, Color, Function */
-
+@media screen and (min-width: 600px) {
+	:root {
+		font-size: 4mm;
+	}
+}
 :root {
-	font-size: 4mm;
+	font-size: 12mm;
 	font-family: Verdana, Georgia, ui-sans-serif, system-ui, sans-serif;
 }
 

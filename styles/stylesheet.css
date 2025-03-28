@@ -24,7 +24,7 @@ header {
 	text-decoration: none;
 	color: #000;
 	& img {
-		margin-right: .5rem;
-		width: 5rem;
+		margin-right: 1rem;
+		width: 3rem;
 	}
 }

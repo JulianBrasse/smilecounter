@@ -1,5 +1,8 @@
 /* Order: @import, :root, *, Elements, Classes, IDs, Attributes, Selectors, Nesting Selectors, Pseudo-Elements, Pseudo-Classes, At-Rules */
 /* Order: Position, Size, Shape, Color, Function */
+@import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,75..125,100..900;1,75..125,100..900");
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900");
+
 @media screen and (min-width: 600px) {
 	:root {
 		font-size: 4mm;
@@ -7,7 +10,7 @@
 }
 :root {
 	font-size: 12mm;
-	font-family: Verdana, Georgia, ui-sans-serif, system-ui, sans-serif;
+	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
 }
 
 * {

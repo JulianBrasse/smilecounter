@@ -22,7 +22,7 @@ header {
 	padding: 2vh;
 	display: flex;
 	justify-content: space-between;
-	background-image: linear-gradient(to right, #36c , #3c9);
+	background-color: #9ed;
 }
 
 nav {

@@ -54,8 +54,8 @@
 		"sizes": "1920x1080"
 		}
 	],
-	"display_override": ["window-control-overlay", "minimal-ui"],
-	"display": "standalone",
+	"display_override": ["borderless", "window-control-overlay", "standalone", "fullscreen"],
+	"display": "minimal-ui",
 	"background_color": "#3c9",
 	"theme_color": "#369"
 }

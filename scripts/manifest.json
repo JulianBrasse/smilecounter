@@ -9,19 +9,16 @@
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon.svg",
 		"type": "image/svg",
 		"sizes": "any",
-		"purpose": "maskable"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon_512.png",
 		"type": "image/png",
 		"sizes": "512x512",
-		"purpose": "maskable"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon_192.png",
 		"type": "image/png",
 		"sizes": "192x192",
-		"purpose": "maskable"
 		}
 	],
 	"screenshots": [
@@ -39,8 +36,9 @@
 		"sizes": "1920x1080"
 		}
 	],
-	"display_override": ["standalone", "fullscreen"],
+	"display_override": ["fullscreen", "standalone"],
 	"display": "minimal-ui",
-	"background_color": "#3c9",
-	"theme_color": "#369"
+	"orientation": "natural"
+	"background_color": "#def",
+	"theme_color": "#9ed"
 }

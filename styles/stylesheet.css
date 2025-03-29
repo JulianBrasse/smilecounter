@@ -4,7 +4,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900");
 
 :root {
-	font-size: 12mm;
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -12,13 +11,14 @@
 	margin: unset;
 	padding: unset;
 	border: unset;
+	box-sizing: border-box;
 }
 
 header {
 	position: absolute;
 	bottom: 0;
-	width: -webkit-fill-available;
-	padding: 1rem;
+	width: 100vw;
+	padding: 15px;
 	display: flex;
 	justify-content: space-between;
 	background-image: linear-gradient(to right, #36c , #3c9);
@@ -29,14 +29,14 @@ nav {
 }
 
 button {
-	margin: 0.5rem 0.5rem 0.5rem 1rem;
-	border-radius: 0.5rem;
-	width: 5rem;
-	font-size: 1rem;
+	margin: 0 0 0 10px;
+	padding: 0 10px 0 10px
+	border-radius: 5px;
+	font-size: 15px;
 }
 
 main {
-	padding: 1rem;
+	padding: 10px;
 	background-color: #def;
 }
 
@@ -46,15 +46,13 @@ main {
 	text-decoration: none;
 	color: #000;
 	& img {
-		margin-right: 1rem;
-		width: 3rem;
+		margin-right: 10px;
+		width: 30px;
 	}
 }
 
-/*
 @media screen and (min-width: 600px) {
-	:root {
-		font-size: 4mm !important;
+	.logo h1 {
+		display: none;
 	}
 }
-*/

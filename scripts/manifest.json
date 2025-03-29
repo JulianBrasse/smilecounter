@@ -6,21 +6,6 @@
 	"description": "SmileCounter entsteht als Maturaarbeit von Julian Brasse.",
 	"icons": [
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/logo.svg",
-		"type": "image/svg",
-		"sizes": "any"
-		},
-		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/logo_512.png",
-		"type": "image/png",
-		"sizes": "512x512"
-		},
-		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/logo_192.png",
-		"type": "image/png",
-		"sizes": "192x192"
-		},
-		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon.svg",
 		"type": "image/svg",
 		"sizes": "any",
@@ -54,7 +39,7 @@
 		"sizes": "1920x1080"
 		}
 	],
-	"display_override": ["borderless", "window-control-overlay", "standalone", "fullscreen"],
+	"display_override": ["standalone", "fullscreen"],
 	"display": "minimal-ui",
 	"background_color": "#3c9",
 	"theme_color": "#369"

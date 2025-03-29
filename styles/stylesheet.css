@@ -5,6 +5,7 @@
 
 :root {
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
+	overscroll-behavior: none;
 }
 
 * {

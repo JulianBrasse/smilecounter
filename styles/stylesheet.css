@@ -18,7 +18,7 @@ header {
 	position: absolute;
 	bottom: 0;
 	width: 100vw;
-	padding: 15px;
+	padding: 4vh;
 	display: flex;
 	justify-content: space-between;
 	background-image: linear-gradient(to right, #36c , #3c9);
@@ -29,14 +29,15 @@ nav {
 }
 
 button {
-	margin: 0 0 0 10px;
-	padding: 0 10px 0 10px;
-	border-radius: 5px;
-	font-size: 15px;
+	margin: 0 0 0 2vh;
+	padding: 0 2vh;
+	border-radius: 1vh;
+	font-size: 2.5vh;
 }
 
 main {
-	padding: 10px;
+	padding: 2vh;
+	height: 100vh;
 	background-color: #def;
 }
 
@@ -46,8 +47,8 @@ main {
 	text-decoration: none;
 	color: #000;
 	& img {
-		margin-right: 10px;
-		width: 30px;
+		margin-right: 2vh;
+		width: 6vh;
 	}
 	& h1 {
 		display: none;

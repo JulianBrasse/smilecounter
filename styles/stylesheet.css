@@ -16,9 +16,9 @@
 
 header {
 	position: absolute;
-	bottom: 0;
+	bottom: env(safe-area-inset-bottom);
 	width: 100vw;
-	padding: 4vh;
+	padding: 2vh;
 	display: flex;
 	justify-content: space-between;
 	background-image: linear-gradient(to right, #36c , #3c9);
@@ -30,9 +30,9 @@ nav {
 
 button {
 	margin: 0 0 0 2vh;
-	padding: 0 2vh;
+	padding: 0 1vh;
 	border-radius: 1vh;
-	font-size: 2.5vh;
+	font-size: 2vh;
 }
 
 main {
@@ -48,7 +48,7 @@ main {
 	color: #000;
 	& img {
 		margin-right: 2vh;
-		width: 6vh;
+		width: 4vh;
 	}
 	& h1 {
 		display: none;

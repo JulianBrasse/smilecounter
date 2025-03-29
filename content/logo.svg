@@ -13,10 +13,10 @@
 			<stop offset="100%" stop-color="#0000" />
 		</radialGradient>
 	</defs>
-<path d="M2,0 H5 V1 H6 V2 H7 V5 H6 V6 H5 V7 H2 V6 H1 V5 H0 V2 H1 V1 H2 Z" fill="#afe" />
+<path d="M2,0 H5 V1 H6 V2 H7 V5 H6 V6 H5 V7 H2 V6 H1 V5 H0 V2 H1 V1 H2 Z" fill="#9ed" />
 <path d="M2,0 H5 V1 H6 V2 H7 V5 H6 V6 H5 V7 H2 V6 H1 V5 H0 V2 H1 V1 H2 Z" fill="url(#bleu)" />
 <path d="M2,0 H5 V1 H6 V2 H7 V5 H6 V6 H5 V7 H2 V6 H1 V5 H0 V2 H1 V1 H2 Z" fill="url(#vert)" />
 <path d="M2,0 H5 V1 H6 V2 H7 V5 H6 V6 H5 V7 H2 V6 H1 V5 H0 V2 H1 V1 H2 Z" fill="url(#cyan)" />
 
-<path fill="#000" d="M1,3 H2 V5 H5 V3 H6 V4 H1 Z" />
+<path d="M1,3 H2 V5 H5 V3 H6 V4 H1 Z" fill="#000" />
 </svg>

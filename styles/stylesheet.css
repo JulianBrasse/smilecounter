@@ -30,7 +30,7 @@ nav {
 
 button {
 	margin: 0 0 0 10px;
-	padding: 0 10px 0 10px
+	padding: 0 10px 0 10px;
 	border-radius: 5px;
 	font-size: 15px;
 }
@@ -49,10 +49,13 @@ main {
 		margin-right: 10px;
 		width: 30px;
 	}
+	& h1 {
+		display: none;
+	}
 }
 
 @media screen and (min-width: 600px) {
 	.logo h1 {
-		display: none;
+		display: initial;
 	}
 }

@@ -39,21 +39,21 @@
 	"screenshots": [
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/screenshot.png",
-		"label": "Coming soon...",
+		"label": "Preview of SmileCounter on Mobile",
 		"type": "image/png",
 		"sizes": "800x1500"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/screenshot_wide.png",
 		"form_factor": "wide",
-		"label": "Coming soon...",
+		"label": "Preview of SmileCounter on Desktop",
 		"type": "image/png",
 		"sizes": "2400x1500"
 		}
 	],
 	"display_override": ["fullscreen", "standalone"],
 	"display": "minimal-ui",
-	"orientation": "natural"
+	"orientation": "natural",
 	"background_color": "#def",
 	"theme_color": "#9ed"
 }

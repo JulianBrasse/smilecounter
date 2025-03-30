@@ -6,19 +6,34 @@
 	"description": "SmileCounter entsteht als Maturaarbeit von Julian Brasse.",
 	"icons": [
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon.svg",
-		"type": "image/svg",
-		"sizes": "any",
+		"src": "https://julianbrasse.github.io/smilecounter/content/icon_72.png",
+		"type": "image/png",
+		"sizes": "72x72"
 		},
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon_512.png",
+		"src": "https://julianbrasse.github.io/smilecounter/content/icon_120.png",
 		"type": "image/png",
-		"sizes": "512x512",
+		"sizes": "120x120"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon_192.png",
 		"type": "image/png",
-		"sizes": "192x192",
+		"sizes": "192x192"
+		},
+		{
+		"src": "https://julianbrasse.github.io/smilecounter/content/icon_384.png",
+		"type": "image/png",
+		"sizes": "384x384"
+		},
+		{
+		"src": "https://julianbrasse.github.io/smilecounter/content/icon_512.png",
+		"type": "image/png",
+		"sizes": "512x512"
+		},
+		{
+		"src": "https://julianbrasse.github.io/smilecounter/content/icon.svg",
+		"type": "image/svg",
+		"sizes": "any"
 		}
 	],
 	"screenshots": [
@@ -26,14 +41,14 @@
 		"src": "https://julianbrasse.github.io/smilecounter/content/screenshot.png",
 		"label": "Coming soon...",
 		"type": "image/png",
-		"sizes": "1080x1080"
+		"sizes": "800x1500"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/screenshot_wide.png",
 		"form_factor": "wide",
 		"label": "Coming soon...",
 		"type": "image/png",
-		"sizes": "1920x1080"
+		"sizes": "2400x1500"
 		}
 	],
 	"display_override": ["fullscreen", "standalone"],

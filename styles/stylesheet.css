@@ -5,7 +5,8 @@
 
 :root {
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
-	overscroll-behavior: contain;
+	accent-color: #9ed;
+	overscroll-behavior-y: none;
 }
 
 * {
@@ -43,7 +44,9 @@ main {
 }
 
 input {
+	margin-top: 1vh;
 	padding: 0.5vh;
+	border-radius: 0.5vh;
 }
 
 .logo {

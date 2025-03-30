@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,75..125,100..900;1,75..125,100..900");
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900");
 
-:root {
+:root, body {
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
 	accent-color: #9ed;
 	overscroll-behavior-y: none;
@@ -17,7 +17,7 @@
 }
 
 header {
-	position: absolute;
+	position: fixed;
 	bottom: env(safe-area-inset-bottom);
 	width: 100vw;
 	padding: 2vh;
@@ -34,13 +34,41 @@ button {
 	margin: 0 0 0 2vh;
 	padding: 0 1vh;
 	border-radius: 1vh;
-	font-size: 2vh;
+	font-size: 2.5vh;
 }
 
 main {
 	padding: 2vh;
 	height: 100vh;
 	background-color: #def;
+}
+
+h1 {
+	font-size: 4vh;
+}
+
+h2 {
+	font-size: 3.5vh;
+}
+
+h3 {
+	font-size: 3vh;
+}
+
+h4 {
+	font-size: 2.5vh;
+}
+
+h5 {
+	font-size: 2vh;
+}
+
+h6 {
+	font-size: 1.5vh;
+}
+
+p {
+	font-size: 2.5vh;
 }
 
 input {

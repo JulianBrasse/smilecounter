@@ -13,7 +13,7 @@
 			<stop offset="100%" stop-color="#0000" />
 		</radialGradient>
 	</defs>
-	<rect width="24" height="24" rx="6" fill="#eed"/>
+	<rect width="24" height="24" rx="6" fill="#9ed"/>
 	<rect width="24" height="24" rx="6" fill="url(#bleu)"/>
 	<rect width="24" height="24" rx="6" fill="url(#vert)"/>
 	<rect width="24" height="24" rx="6" fill="url(#cyan)"/>

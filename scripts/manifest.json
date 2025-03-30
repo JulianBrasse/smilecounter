@@ -8,31 +8,43 @@
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon_72.png",
 		"type": "image/png",
+		"purpose": "any maskable"
 		"sizes": "72x72"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon_120.png",
 		"type": "image/png",
+		"purpose": "any maskable"
 		"sizes": "120x120"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon_192.png",
 		"type": "image/png",
+		"purpose": "any maskable"
 		"sizes": "192x192"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon_384.png",
 		"type": "image/png",
+		"purpose": "any maskable"
 		"sizes": "384x384"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon_512.png",
 		"type": "image/png",
+		"purpose": "any maskable"
 		"sizes": "512x512"
 		},
 		{
 		"src": "https://julianbrasse.github.io/smilecounter/content/icon.svg",
 		"type": "image/svg",
+		"purpose": "any maskable"
+		"sizes": "any"
+		},
+		{
+		"src": "https://julianbrasse.github.io/smilecounter/content/logo.svg",
+		"type": "image/svg",
+		"purpose": "any"
 		"sizes": "any"
 		}
 	],
@@ -51,7 +63,7 @@
 		"sizes": "2400x1500"
 		}
 	],
-	"display_override": ["fullscreen", "standalone"],
+	"display_override": ["standalone", "fullscreen"],
 	"display": "minimal-ui",
 	"orientation": "natural",
 	"background_color": "#def",

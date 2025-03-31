@@ -6,7 +6,7 @@
 :root, body {
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
 	accent-color: #9ed;
-	overscroll-behavior-y: none;
+	overscroll-behavior-y: contain;
 }
 
 * {
@@ -40,6 +40,9 @@ button {
 main {
 	padding: 2vh;
 	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
 	background-color: #def;
 }
 

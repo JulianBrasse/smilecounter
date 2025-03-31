@@ -42,9 +42,25 @@
 			</nav>
 		</header>
 		<main>
-			<p>How happy are you and why?</p>
-			<input type="text" name="test" placeholder="test" />
-			<input type="range" id="test2" name="test2" min="0" max="5" />
+			<p>How happy are you?</p>
+			<input type="range" name="ask_amount" min="0" max="5" />
+			<p>Can you explain why?</p>
+			<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" />
+			<fieldset>
+				<legend>What is the reason?</legend>
+				<div>
+					<input type="radio" id="reason_food" name="select_reason" value="food" />
+					<label for="reason_food">Food</label>
+				</div>
+				<div>
+					<input type="radio" id="reason_money" name="select_reason" value="money" />
+					<label for="reason_money">Money</label>
+				</div>
+				<div>
+					<input type="radio" id="reason_nature" name="select_reason" value="nature" />
+					<label for="reason_nature">Nature</label>
+				</div>
+			</fieldset>
 		</main>
 		<footer>
 			

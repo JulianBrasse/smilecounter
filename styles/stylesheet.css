@@ -75,7 +75,7 @@ p {
 }
 
 input {
-	margin-top: 1vh;
+	margin: 1vh 0;
 	padding: 0.5vh;
 	border-radius: 0.5vh;
 }

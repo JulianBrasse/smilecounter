@@ -1,60 +1,65 @@
 {
-	"name": "Smile Counter",
-	"short_name": "SmileCounter",
-	"start_url": "https://julianbrasse.github.io/smilecounter",
-	"id": "/smilecounter",
-	"description": "Track your Happiness with SmileCounter and get Suggestions on how to improve it!",
+	"name": "Vibe Check",
+	"short_name": "VibeCheck",
+	"start_url": "https://vibecheck.ch",
+	"description": "Track your Happiness with Vibe Check and get Suggestions on how to improve it!",
 	"icons": [
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon_24.png",
+		"src": "https://vibecheck.ch/content/icon_60.png",
 		"type": "image/png",
-		"purpose": "any maskable",
-		"sizes": "24x24"
-		},
-		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon_72.png",
-		"type": "image/png",
-		"purpose": "any maskable",
+		"purpose": "maskable",
 		"sizes": "72x72"
 		},
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon_120.png",
+		"src": "https://vibecheck.ch/content/icon_192.png",
 		"type": "image/png",
-		"purpose": "any maskable",
-		"sizes": "120x120"
-		},
-		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon_192.png",
-		"type": "image/png",
-		"purpose": "any maskable",
+		"purpose": "maskable",
 		"sizes": "192x192"
 		},
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon_384.png",
+		"src": "https://vibecheck.ch/content/icon_512.png",
 		"type": "image/png",
-		"purpose": "any maskable",
-		"sizes": "384x384"
-		},
-		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon_512.png",
-		"type": "image/png",
-		"purpose": "any maskable",
+		"purpose": "maskable",
 		"sizes": "512x512"
 		},
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon_1024.png",
+		"src": "https://vibecheck.ch/content/icon_1024.png",
 		"type": "image/png",
-		"purpose": "any maskable",
+		"purpose": "maskable",
 		"sizes": "1024x1024"
 		},
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/icon.svg",
+		"src": "https://vibecheck.ch/content/icon.svg",
 		"type": "image/svg",
-		"purpose": "any maskable",
+		"purpose": "maskable",
 		"sizes": "any"
 		},
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/logo.svg",
+		"src": "https://vibecheck.ch/content/logo_72.png",
+		"type": "image/png",
+		"purpose": "any",
+		"sizes": "72x72"
+		},
+		{
+		"src": "https://vibecheck.ch/content/logo_192.png",
+		"type": "image/png",
+		"purpose": "any",
+		"sizes": "192x192"
+		},
+		{
+		"src": "https://vibecheck.ch/content/logo_512.png",
+		"type": "image/png",
+		"purpose": "any",
+		"sizes": "512x512"
+		},
+		{
+		"src": "https://vibecheck.ch/content/logo_1024.png",
+		"type": "image/png",
+		"purpose": "any",
+		"sizes": "1024x1024"
+		},
+		{
+		"src": "https://vibecheck.ch/content/logo.svg",
 		"type": "image/svg",
 		"purpose": "any",
 		"sizes": "any"
@@ -62,15 +67,15 @@
 	],
 	"screenshots": [
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/screenshot.png",
-		"label": "Preview of SmileCounter on Mobile",
+		"src": "https://vibecheck.ch/content/screenshot.png",
+		"label": "Preview of Vibe Check on Mobile",
 		"type": "image/png",
 		"sizes": "800x1500"
 		},
 		{
-		"src": "https://julianbrasse.github.io/smilecounter/content/screenshot_wide.png",
+		"src": "https://vibecheck.ch/content/screenshot_wide.png",
 		"form_factor": "wide",
-		"label": "Preview of SmileCounter on Desktop",
+		"label": "Preview of Vibe Check on Desktop",
 		"type": "image/png",
 		"sizes": "2400x1500"
 		}

@@ -13,10 +13,10 @@
 			<stop offset="100%" stop-color="#0000" />
 		</radialGradient>
 	</defs>
-	<rect width="24" height="24" rx="6" fill="#9ed"/>
-	<rect width="24" height="24" rx="6" fill="url(#bleu)"/>
-	<rect width="24" height="24" rx="6" fill="url(#vert)"/>
-	<rect width="24" height="24" rx="6" fill="url(#cyan)"/>
+	<rect width="24" height="24" rx="4" fill="#9ed"/>
+	<rect width="24" height="24" rx="4" fill="url(#bleu)"/>
+	<rect width="24" height="24" rx="4" fill="url(#vert)"/>
+	<rect width="24" height="24" rx="4" fill="url(#cyan)"/>
 	<path d="M9,5 H15 V7 H17 V9 H19 V15 H17 V17 H15 V19 H9 V17 H7 V15 H5 V9 H7 V7 H9 Z" fill="#9ed" />
 	<path d="M7,11 H9 V15 H15 V11 H17 V13 H7 Z" fill="#000" />
 </svg>

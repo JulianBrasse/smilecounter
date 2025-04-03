@@ -33,7 +33,7 @@
 	<body>
 		<header>
 			<a href="/" class="logo">
-				<img src="content/logo.svg">
+				<img src="content/logo.svg" alt="Vibey our smiley face icon." />
 				<h1>VibeCheck</h1>
 			</a>
 			<nav>
@@ -43,9 +43,9 @@
 		</header>
 		<main>
 			<p>How happy are you?</p>
-			<input type="range" name="ask_amount" min="0" max="5" />
+			<input type="range" id="ask_amount" name="ask_amount" min="0" max="10" aria-label="How happy are you?" />
 			<p>Can you explain why?</p>
-			<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" />
+			<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" aria-label="Can you explain why?" />
 			<fieldset>
 				<p>What is the reason?</p>
 				<div>

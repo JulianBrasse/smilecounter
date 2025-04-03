@@ -6,7 +6,7 @@
 :root, body {
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
 	accent-color: #9ed;
-	overscroll-behavior-y: contain;
+	overscroll-behavior-y: none;
 }
 
 * {

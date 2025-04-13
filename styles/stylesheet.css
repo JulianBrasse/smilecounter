@@ -81,6 +81,31 @@ input {
 	border-radius: 0.5vh;
 }
 
+table {
+	padding: 10px;
+	border: 1px solid black;
+	border-spacing: 5px;
+	border-radius: 10px;
+}
+
+th {
+	text-align: right;
+	font-weight: 400;
+	font-family: Chivo Mono, ui-monospace, monospace;
+}
+
+thead th {
+	font-size: 20px;
+	font-weight: revert;
+	font-family: revert;
+}
+
+td {
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
 .logo {
 	display: flex;
 	align-items: center;

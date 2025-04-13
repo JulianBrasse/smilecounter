@@ -5,61 +5,55 @@
 	"description": "Track your Happiness with Vibe Check and get Suggestions on how to improve it!",
 	"icons": [
 		{
-		"src": "https://vibecheck.ch/content/icon_72.png",
-		"type": "image/png",
-		"purpose": "any maskable",
-		"sizes": "72x72"
-		},
-		{
 		"src": "https://vibecheck.ch/content/icon_192.png",
 		"type": "image/png",
-		"purpose": "any maskable",
+		"purpose": "maskable",
 		"sizes": "192x192"
 		},
 		{
-		"src": "https://vibecheck.ch/content/icon_512.png",
+		"src": "https://vibecheck.ch/content/icon_384.png",
 		"type": "image/png",
-		"purpose": "any maskable",
-		"sizes": "512x512"
+		"purpose": "maskable",
+		"sizes": "384x384"
 		},
 		{
-		"src": "https://vibecheck.ch/content/icon_1024.png",
+		"src": "https://vibecheck.ch/content/icon_768.png",
 		"type": "image/png",
-		"purpose": "any maskable",
-		"sizes": "1024x1024"
+		"purpose": "maskable",
+		"sizes": "768x768"
 		},
 		{
 		"src": "https://vibecheck.ch/content/icon.svg",
 		"type": "image/svg",
-		"purpose": "any maskable",
+		"purpose": "maskable",
 		"sizes": "any"
 		},
 		{
-		"src": "https://vibecheck.ch/content/logo_72.png",
+		"src": "https://vibecheck.ch/content/favicon_16.png",
 		"type": "image/png",
 		"purpose": "any",
-		"sizes": "72x72"
+		"sizes": "16x16"
 		},
 		{
-		"src": "https://vibecheck.ch/content/logo_192.png",
+		"src": "https://vibecheck.ch/content/favicon_192.png",
 		"type": "image/png",
 		"purpose": "any",
 		"sizes": "192x192"
 		},
 		{
-		"src": "https://vibecheck.ch/content/logo_512.png",
+		"src": "https://vibecheck.ch/content/favicon_384.png",
 		"type": "image/png",
 		"purpose": "any",
-		"sizes": "512x512"
+		"sizes": "384x384"
 		},
 		{
-		"src": "https://vibecheck.ch/content/logo_1024.png",
+		"src": "https://vibecheck.ch/content/favicon_768.png",
 		"type": "image/png",
 		"purpose": "any",
-		"sizes": "1024x1024"
+		"sizes": "768x768"
 		},
 		{
-		"src": "https://vibecheck.ch/content/logo.svg",
+		"src": "https://vibecheck.ch/content/favicon.svg",
 		"type": "image/svg",
 		"purpose": "any",
 		"sizes": "any"

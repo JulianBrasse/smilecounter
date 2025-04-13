@@ -40,12 +40,17 @@
 		<main>
 			<h2>What is Vibe Check?</h2>
 			<p>Measure and record how happy you are, and receive suggestions on how to improve your happiness.</p>
-			<form action="/action_page.php" method="post" autocomplete="off">
-				<label for="ask_amount">How happy are you?</label>
-				<input type="range" id="ask_amount" name="ask_amount" min="0" max="10" />
-				
-				<label for="ask_reason">Can you explain why?</label>
-				<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" />
+			
+			<form action="/" method="post" autocomplete="off">
+				<div>
+					<label for="ask_amount">How happy are you?</label>
+					<input type="range" id="ask_amount" name="ask_amount" min="0" max="10" />
+				</div>
+
+				<div>
+					<label for="ask_reason">Can you explain why?</label>
+					<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" />
+				</div>
 				
 				<fieldset>
 					<legend>What is the reason?</legend>
@@ -62,24 +67,27 @@
 						<label for="reason_nature">Nature</label>
 					</div>
 				</fieldset>
-				
-				<label for="choose_reason">What is the reason?</label>
-				<select id="choose_reason" name="choose_reason" multiple>
-					<option value="">Choose a reason</option>
-					<optgroup label="Reason">
+
+				<div>
+					<label for="choose_reason">What is the reason?</label>
+					<select id="choose_reason" name="choose_reason" size="4" multiple>
+						<option value="">Choose a reason</option>
 						<option value="reason_food">Food</option>
 						<option value="reason_money">Money</option>
 						<option value="reason_nature">Nature</option>
-					</optgroup>
-				</select>
-				
-				<label for="choose_color">What color matches your emotion?</label>
-				<input type="color" id="choose_color" name="choose_color" />
+					</select>
+				</div>
+
+				<div>
+					<label for="choose_color">What color matches your emotion?</label>
+					<input type="color" id="choose_color" name="choose_color" />
+				</div>
 				
 				<input type="hidden" id="user_number" name="user_number" value="0001" />
 				
 				<input type="submit" />
 			</form>
+			
 		</main>
 		<footer>
 			<p>footer empty</p>

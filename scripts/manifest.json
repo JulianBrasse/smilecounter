@@ -7,31 +7,31 @@
 		{
 		"src": "https://vibecheck.ch/content/icon_72.png",
 		"type": "image/png",
-		"purpose": "maskable",
+		"purpose": "any maskable",
 		"sizes": "72x72"
 		},
 		{
 		"src": "https://vibecheck.ch/content/icon_192.png",
 		"type": "image/png",
-		"purpose": "maskable",
+		"purpose": "any maskable",
 		"sizes": "192x192"
 		},
 		{
 		"src": "https://vibecheck.ch/content/icon_512.png",
 		"type": "image/png",
-		"purpose": "maskable",
+		"purpose": "any maskable",
 		"sizes": "512x512"
 		},
 		{
 		"src": "https://vibecheck.ch/content/icon_1024.png",
 		"type": "image/png",
-		"purpose": "maskable",
+		"purpose": "any maskable",
 		"sizes": "1024x1024"
 		},
 		{
 		"src": "https://vibecheck.ch/content/icon.svg",
 		"type": "image/svg",
-		"purpose": "maskable",
+		"purpose": "any maskable",
 		"sizes": "any"
 		},
 		{

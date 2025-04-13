@@ -84,7 +84,7 @@ input {
 	margin: 1vh 0;
 }
 
-input[type="text"] {
+input[type="text"], input[type="submit"]{
 	padding: 0.5vh;
 	border-radius: 0.5vh;
 }

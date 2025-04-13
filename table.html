@@ -2,53 +2,59 @@
 <html>
 <head>
 <style>
+/* Order: Position, Size, Shape, Color, Function */
 
 @import url("https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,75..125,100..900;1,75..125,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 
-:root, body {
+body {
+margin: 10px;
 font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
-accent-color: #9ed;
-overscroll-behavior-y: none;
-user-select: none;
+}
+
+section {
+margin-bottom: 50px;
 }
 
 div {
-display: flex;
 margin-bottom: 10px;
+display: flex;
 }
 
-table, td {
-border: 1px solid black;
-}
-
-td {
+table {
+margin-right: 10px;
 padding: 10px;
-border-radius: 5px;
+border: 1px solid black;
+border-spacing: 5px;
+border-radius: 10px;
 }
 
 th {
-font-family: Chivo Mono, ui-monospace, monospace;
-font-weight: 400;
 text-align: left;
+font-weight: 400;
+font-family: Chivo Mono, ui-monospace, monospace;
 }
 
 thead th {
 font-size: 20px;
-font-family: revert;
 font-weight: 700;
+font-family: revert;
 }
 
-table {
-margin: 0px 10px 10px 0px;
+td {
 padding: 10px;
-border-spacing: 5px;
-border-radius: 10px;
+border: 1px solid black;
+border-radius: 5px;
+}
+
+#bigtext_right th {
+text-align: right;
 }
 </style>
 </head>
 <body>
 
+<section>
 <div>
 <table>
 <thead><th colspan="6">April</th></thead>
@@ -91,7 +97,51 @@ border-radius: 10px;
 <tr><th>Sun</th><td/><td/><td/><td/><td/></tr>
 </table>
 </div>
+<div>
+<table>
+<thead><th colspan="6">April</th></thead>
+<tr><td/><td/><td/><td/><td/><th>Mon</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Tue</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Wed</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Thu</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Fri</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sat</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sun</th></tr>
+</table>
+<table>
+<thead><th colspan="5" style="text-align:center">April</th><th/></thead>
+<tr><td/><td/><td/><td/><td/><th>Mon</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Tue</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Wed</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Thu</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Fri</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sat</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sun</th></tr>
+</table>
+<table>
+<thead><th colspan="5" style="text-align:right">April</th><th/></thead>
+<tr><td/><td/><td/><td/><td/><th>Mon</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Tue</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Wed</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Thu</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Fri</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sat</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sun</th></tr>
+</table>
+<table>
+<thead><th colspan="6" style="text-align:right">April</th></thead>
+<tr><td/><td/><td/><td/><td/><th>Mon</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Tue</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Wed</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Thu</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Fri</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sat</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sun</th></tr>
+</table>
+</div>
+</section>
 
+<section>
 <div>
 <table>
 <thead><th colspan="6">April</th></thead>
@@ -134,50 +184,6 @@ border-radius: 10px;
 <tr><th>Sunday</th><td/><td/><td/><td/><td/></tr>
 </table>
 </div>
-
-<div>
-<table>
-<thead><th colspan="6">April</th></thead>
-<tr><td/><td/><td/><td/><td/><th>Mon</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Tue</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Wed</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Thu</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Fri</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Sat</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Sun</th></tr>
-</table>
-<table>
-<thead><th colspan="5" style="text-align:center">April</th><th/></thead>
-<tr><td/><td/><td/><td/><td/><th>Mon</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Tue</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Wed</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Thu</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Fri</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Sat</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Sun</th></tr>
-</table>
-<table>
-<thead><th colspan="5" style="text-align:right">April</th><th/></thead>
-<tr><td/><td/><td/><td/><td/><th>Mon</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Tue</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Wed</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Thu</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Fri</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Sat</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Sun</th></tr>
-</table>
-<table>
-<thead><th colspan="6" style="text-align:right">April</th></thead>
-<tr><td/><td/><td/><td/><td/><th>Mon</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Tue</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Wed</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Thu</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Fri</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Sat</th></tr>
-<tr><td/><td/><td/><td/><td/><th>Sun</th></tr>
-</table>
-</div>
-
 <div>
 <table>
 <thead><th colspan="6">April</th></thead>
@@ -210,7 +216,7 @@ border-radius: 10px;
 <tr><td/><td/><td/><td/><td/><th>Sunday</th></tr>
 </table>
 <table>
-<thead><th colspan="6" style="text-align:right">April</th></thead>
+<thead><th/><th/><th/><th/><th/><th>April</th></thead>
 <tr><td/><td/><td/><td/><td/><th>Monday</th></tr>
 <tr><td/><td/><td/><td/><td/><th>Tuesday</th></tr>
 <tr><td/><td/><td/><td/><td/><th>Wednesday</th></tr>
@@ -220,6 +226,93 @@ border-radius: 10px;
 <tr><td/><td/><td/><td/><td/><th>Sunday</th></tr>
 </table>
 </div>
+</section>
 
+<section id="bigtext_right">
+<div>
+<table>
+<thead><th>April</th></thead>
+<tr><th>Monday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Tuesday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Wednesday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Thursday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Friday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Saturday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Sunday</th><td/><td/><td/><td/><td/></tr>
+</table>
+<table>
+<thead><th/><th colspan="5" style="text-align:left">April</th></thead>
+<tr><th>Monday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Tuesday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Wednesday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Thursday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Friday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Saturday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Sunday</th><td/><td/><td/><td/><td/></tr>
+</table>
+<table>
+<thead><th/><th colspan="5" style="text-align:center">April</th></thead>
+<tr><th>Monday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Tuesday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Wednesday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Thursday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Friday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Saturday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Sunday</th><td/><td/><td/><td/><td/></tr>
+</table>
+<table>
+<thead><th colspan="6">April</th></thead>
+<tr><th>Monday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Tuesday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Wednesday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Thursday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Friday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Saturday</th><td/><td/><td/><td/><td/></tr>
+<tr><th>Sunday</th><td/><td/><td/><td/><td/></tr>
+</table>
+</div>
+<div>
+<table>
+<thead><th colspan="6" style="text-align:left">April</th></thead>
+<tr><td/><td/><td/><td/><td/><th>Monday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Tuesday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Wednesday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Thursday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Friday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Saturday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sunday</th></tr>
+</table>
+<table>
+<thead><th colspan="5" style="text-align:center">April</th><th/></thead>
+<tr><td/><td/><td/><td/><td/><th>Monday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Tuesday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Wednesday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Thursday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Friday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Saturday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sunday</th></tr>
+</table>
+<table>
+<thead><th colspan="5">April</th><th/></thead>
+<tr><td/><td/><td/><td/><td/><th>Monday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Tuesday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Wednesday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Thursday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Friday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Saturday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sunday</th></tr>
+</table>
+<table>
+<thead><th colspan="6">April</th></thead>
+<tr><td/><td/><td/><td/><td/><th>Monday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Tuesday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Wednesday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Thursday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Friday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Saturday</th></tr>
+<tr><td/><td/><td/><td/><td/><th>Sunday</th></tr>
+</table>
+</div>
+</section>
 </body>
 </html>

@@ -5,17 +5,27 @@
 
 :root {
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
-	--background: #def;
-	--accent: #9ed;
+	--accent: #def;
+	--primary: #9ed;
+	--secondary: #def;
 	--content: #000;
-	--fill: #eee;
+	--fill: #fff;
 	overscroll-behavior-y: none;
 	user-select: none;
 }
 
+@media (prefers-color-scheme: dark) {
+:root {
+	--primary: #012;
+	--secondary: #123;
+	--content: #fff;
+	--fill: #666;
+	}
+}
+
 body {
 	accent-color: var(--accent);
-	background-color: var(--background);
+	background-color: var(--secondary);
 }
 
 * {
@@ -33,7 +43,7 @@ header {
 	padding: 2vh;
 	display: flex;
 	justify-content: space-between;
-	background-color: var(--accent);
+	background-color: var(--primary);
 }
 
 nav {

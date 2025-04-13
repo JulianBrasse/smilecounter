@@ -75,8 +75,16 @@ p {
 	font-size: 2.5vh;
 }
 
+div {
+	display: flex;
+	flex-direction: column;
+}
+
 input {
 	margin: 1vh 0;
+}
+
+input[type="text"] {
 	padding: 0.5vh;
 	border-radius: 0.5vh;
 }

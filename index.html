@@ -1,39 +1,35 @@
 <!DOCTYPE html>
-<html lang="de-CH">
+<html lang="en-CH">
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="initial-scale=1.0, viewport-fit=cover" />
-		<meta name="mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
 		<link rel="preconnect" href="https://fonts.gstatic.com" />
-		<link rel="icon" href="content/logo.svg" />
-		<link rel="stylesheet" href="styles/stylesheet.css" />
 		<link rel="canonical" href="https://vibecheck.ch" />
-		<link rel="manifest" href="scripts/manifest.json" />
+		<link rel="icon" href="/content/logo.svg" />
+		<link rel="apple-touch-icon" href="/content/icon.svg" />
+		<link rel="stylesheet" href="/styles/stylesheet.css" />
+		<link rel="manifest" href="/scripts/manifest.json" />
 		
 		<title>Vibe Check</title>
-		
+		<base href="https://vibecheck.ch" />
+		<meta name="application-name" content="VibeCheck" />
 		<meta name="description" content="Track your Happiness with Vibe Check and get Suggestions on how to improve it!" />
-		<meta name="keywords" content="Vibe, Happy, Mood, Smile, Joy, Check, Stats, Counter, Meter, Tracker, Diary, Journal, Wellness, VibeCheck, Vibe Check" />
-		
-		<meta property="og:title" content="Vibe Check" />
-		<meta property="og:site_name" content="Vibe Check" />
-		<meta property="og:type" content="website" />
+		<meta name="keywords" content="Vibe, Happy, Mood, Smile, Joy, Check, Stats, Counter, Meter, Tracker, Diary, Journal, Wellness" />
+
 		<meta property="og:url" content="https://vibecheck.ch" />
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Vibe Check" />
 		<meta property="og:description" content="Track your Happiness with Vibe Check and get Suggestions on how to improve it!" />
 		<meta property="og:image" content="https://vibecheck.ch/content/brand.png" />
-		
-		<meta name="twitter:card" content="summary" />
-		<meta name="twitter:site" content="@vibecheck" />
-		<meta name="twitter:title" content="Vibe Check" />
-		<meta name="twitter:description" content="Track your Happiness with Vibe Check and get Suggestions on how to improve it!" />
-		<meta name="twitter:image" content="https://vibecheck.chcontent/brand.png" />
 	</head>
 	<body>
 		<header>
 			<a href="/" class="logo">
-				<img src="content/logo.svg" alt="Vibey our smiley face icon." />
+				<img src="/content/logo.svg" alt="Vibey our smiley face icon." />
 				<h1>VibeCheck</h1>
 			</a>
 			<nav>
@@ -44,28 +40,49 @@
 		<main>
 			<h2>What is Vibe Check?</h2>
 			<p>Measure and record how happy you are, and receive suggestions on how to improve your happiness.</p>
-			<p>How happy are you?</p>
-			<input type="range" id="ask_amount" name="ask_amount" min="0" max="10" aria-label="How happy are you?" />
-			<p>Can you explain why?</p>
-			<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" aria-label="Can you explain why?" />
-			<fieldset>
-				<p>What is the reason?</p>
-				<div>
-					<input type="radio" id="reason_food" name="select_reason" value="food" />
-					<label for="reason_food">Food</label>
-				</div>
-				<div>
-					<input type="radio" id="reason_money" name="select_reason" value="money" />
-					<label for="reason_money">Money</label>
-				</div>
-				<div>
-					<input type="radio" id="reason_nature" name="select_reason" value="nature" />
-					<label for="reason_nature">Nature</label>
-				</div>
-			</fieldset>
+			<form action="/action_page.php" method="post" autocomplete="off">
+				<label for="ask_amount">How happy are you?</label>
+				<input type="range" id="ask_amount" name="ask_amount" min="0" max="10" />
+				
+				<label for="ask_reason">Can you explain why?</label>
+				<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" />
+				
+				<fieldset>
+					<legend>What is the reason?</legend>
+					<div>
+						<input type="checkbox" id="reason_food" name="select_reason" value="food" />
+						<label for="reason_food">Food</label>
+					</div>
+					<div>
+						<input type="checkbox" id="reason_money" name="select_reason" value="money" />
+						<label for="reason_money">Money</label>
+					</div>
+					<div>
+						<input type="checkbox" id="reason_nature" name="select_reason" value="nature" />
+						<label for="reason_nature">Nature</label>
+					</div>
+				</fieldset>
+				
+				<label for="choose_reason">What is the reason?</label>
+				<select id="choose_reason" name="choose_reason" multiple>
+					<option value="">Choose a reason</option>
+					<optgroup label="Reason">
+						<option value="reason_food">Food</option>
+						<option value="reason_money">Money</option>
+						<option value="reason_nature">Nature</option>
+					</optgroup>
+				</select>
+				
+				<label for="choose_color">What color matches your emotion?</label>
+				<input type="color" id="choose_color" name="choose_color" />
+				
+				<input type="hidden" id="user_number" name="user_number" value="0001" />
+				
+				<input type="submit" />
+			</form>
 		</main>
 		<footer>
-			
+			<p>footer empty</p>
 		</footer>
 	</body>
 </html>

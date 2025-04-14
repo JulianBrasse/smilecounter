@@ -2,7 +2,9 @@
 	"name": "Vibe Check",
 	"short_name": "VibeCheck",
 	"start_url": "https://vibecheck.ch",
+	"id": "/",
 	"description": "Track your Happiness with Vibe Check and get Suggestions on how to improve it!",
+	"categories": ["health", "lifestyle", "utilities"],
 	"icons": [
 		{
 		"src": "https://vibecheck.ch/content/icon_192.png",
@@ -64,19 +66,20 @@
 		"src": "https://vibecheck.ch/content/screenshot.png",
 		"label": "Preview of Vibe Check on Mobile",
 		"type": "image/png",
-		"sizes": "800x1500"
+		"sizes": "960x1536"
 		},
 		{
 		"src": "https://vibecheck.ch/content/screenshot_wide.png",
 		"form_factor": "wide",
 		"label": "Preview of Vibe Check on Desktop",
 		"type": "image/png",
-		"sizes": "2400x1500"
+		"sizes": "1536x960"
 		}
 	],
 	"display_override": ["standalone", "fullscreen"],
 	"display": "minimal-ui",
 	"orientation": "natural",
+	"launch_handler": {"client_mode": "navigate-existing"},
 	"background_color": "#9ed",
 	"theme_color": "#def"
 }

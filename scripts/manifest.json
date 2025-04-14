@@ -81,5 +81,5 @@
 	"orientation": "natural",
 	"launch_handler": {"client_mode": "navigate-existing"},
 	"background_color": "#9ed",
-	"theme_color": "#def"
+	"theme_color": "#9ed"
 }

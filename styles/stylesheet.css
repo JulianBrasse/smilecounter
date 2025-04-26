@@ -19,7 +19,8 @@
 :root {
 	--primary: #012;
 	--secondary: #123;
-	--tertiary: #316;
+	--tertiary: #012;
+	--darkpurple: #316;
 	--content: #fff;
 	--fill: #666;
 	}

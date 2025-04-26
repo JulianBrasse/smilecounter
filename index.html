@@ -36,63 +36,60 @@
 				<h1>VibeCheck</h1>
 			</a>
 			<nav>
-				<button>Login</button>
-				<button>Join</button>
+				<a href="/">Login</a>
+				<a href="/">Join</button>
 			</nav>
 		</header>
 		<main>
-			<h2>What is Vibe Check?</h2>
+			<h2>Good morning Julian!</h2>
 			<p>Measure and record how happy you are, and receive suggestions on how to improve your happiness.</p>
-			
-			<form action="/" method="post" autocomplete="off">
-				<div>
-					<label for="ask_amount">How happy are you?</label>
-					<input type="range" id="ask_amount" name="ask_amount" min="0" max="10" />
-				</div>
-
-				<div>
-					<label for="ask_reason">Can you explain why?</label>
-					<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" />
-				</div>
-				
-				<fieldset>
-					<legend>What is the reason?</legend>
+			<section>
+				<h3>VibeCheck</h3>
+				<form action="/" method="post" autocomplete="off">
 					<div>
-						<input type="checkbox" id="reason_food" name="select_reason" value="food" />
-						<label for="reason_food">Food</label>
+						<label for="ask_amount">How happy are you?</label>
+						<input type="range" id="ask_amount" name="ask_amount" min="0" max="10" />
 					</div>
 					<div>
-						<input type="checkbox" id="reason_money" name="select_reason" value="money" />
-						<label for="reason_money">Money</label>
+						<label for="ask_reason">Can you explain why?</label>
+						<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" />
 					</div>
+					<fieldset>
+						<legend>What is the reason?</legend>
+						<div>
+							<input type="checkbox" id="reason_food" name="select_reason" value="food" />
+							<label for="reason_food">Food</label>
+						</div>
+						<div>
+							<input type="checkbox" id="reason_money" name="select_reason" value="money" />
+							<label for="reason_money">Money</label>
+						</div>
+						<div>
+							<input type="checkbox" id="reason_nature" name="select_reason" value="nature" />
+							<label for="reason_nature">Nature</label>
+						</div>
+					</fieldset>
 					<div>
-						<input type="checkbox" id="reason_nature" name="select_reason" value="nature" />
-						<label for="reason_nature">Nature</label>
+						<label for="choose_color">What color matches your emotion?</label>
+						<input type="color" id="choose_color" name="choose_color" value="#99eedd" />
 					</div>
-				</fieldset>
-
-				<div>
-					<label for="choose_color">What color matches your emotion?</label>
-					<input type="color" id="choose_color" name="choose_color" value="#99eedd" />
-				</div>
-				
-				<input type="hidden" id="user_number" name="user_number" value="0001" />
-				
-				<input type="submit" />
-			</form>
-			<table>
-				<thead><th colspan="6">January</th></thead>
-				<tr><th>Mon</th><td style="background-color:lightgreen;"/><td/><td/><td/><td/></tr>
-				<tr><th>Tue</th><td/><td/><td/><td/><td/></tr>
-				<tr><th>Wed</th><td/><td style="background-color:lightgreen;"/><td/><td style="background-color:green;"/><td style="background-color:gold;"/></tr>
-				<tr><th>Thu</th><td style="background-color:orange;"/><td style="background-color:red;"/><td style="background-color:lightgreen;"/><td/><td/></tr>
-				<tr><th>Fri</th><td/><td/><td/><td/><td/></tr>
-				<tr><th>Sat</th><td/><td/><td/><td/><td/></tr>
-				<tr><th>Sun</th><td/><td/><td/><td/><td/></tr>
-			</table>
+					<input type="hidden" id="user_number" name="user_number" value="0001" />
+					<input type="submit" />
+				</form>
+			</section>
+			<section>
+				<h3>SmileHistory</h2>
+				<table>
+					<thead><th colspan="6">January</th></thead>
+					<tr><th>Mon</th><td style="background-color:lightgreen;"/><td/><td/><td/><td/></tr>
+					<tr><th>Tue</th><td/><td/><td/><td/><td/></tr>
+					<tr><th>Wed</th><td/><td style="background-color:lightgreen;"/><td/><td style="background-color:green;"/><td style="background-color:gold;"/></tr>
+					<tr><th>Thu</th><td style="background-color:orange;"/><td style="background-color:red;"/><td style="background-color:lightgreen;"/><td/><td/></tr>
+					<tr><th>Fri</th><td/><td/><td/><td/><td/></tr>
+					<tr><th>Sat</th><td/><td/><td/><td/><td/></tr>
+					<tr><th>Sun</th><td/><td/><td/><td/><td/></tr>
+				</table>
+			</section>
 		</main>
-		<footer>
-			<p>footer empty</p>
-		</footer>
 	</body>
 </html>

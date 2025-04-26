@@ -7,6 +7,7 @@
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
 	--accent: #9ed;
 	--primary: #9ed;
+	--tertiary: #ecf;
 	--secondary: #def;
 	--content: #000;
 	--fill: #fff;
@@ -90,7 +91,15 @@ h6 {
 }
 
 p {
+	margin-below: 1vh;
 	font-size: 2.5vh;
+}
+
+section {
+	margin: 2vh 0 0 0;
+	padding: 2vh;
+	border-radius: 2vh;
+	background-color: var(--tertiary);
 }
 
 div {
@@ -109,10 +118,10 @@ input[type="text"], input[type="submit"]{
 }
 
 table {
-	padding: 10px;
+	padding: 1vh;
 	border: 1px solid var(--content);
-	border-spacing: 5px;
-	border-radius: 10px;
+	border-spacing: 1vh;
+	border-radius: 1vh;
 	background-color: var(--fill);
 }
 
@@ -123,15 +132,15 @@ th {
 }
 
 thead th {
-	font-size: 20px;
+	font-size: 2.5vh;
 	font-weight: revert;
 	font-family: revert;
 }
 
 td {
-	padding: 10px;
+	padding: 1vh;
 	border: 1px solid var(--content);
-	border-radius: 5px;
+	border-radius: 1vh;
 }
 
 .logo {

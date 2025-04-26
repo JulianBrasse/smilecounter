@@ -113,7 +113,6 @@ div {
 }
 
 input {
-	margin-top: 1vh;
 	background-color: var(--fill);
 }
 
@@ -123,7 +122,12 @@ input[type="text"], input[type="submit"] {
 }
 
 input[type="checkbox"] {
-	margin-right: 0.5vh;
+	margin: 0 0.5vh 0.5vh 0;
+}
+
+input:not(:last-child) {
+	margin-bottom: 1vh;
+
 }
 
 table {

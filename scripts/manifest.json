@@ -76,6 +76,16 @@
 		"sizes": "1536x960"
 		}
 	],
+	"shortcuts": [
+		{
+		"name": "Check your Vibe",
+		"url": "/"
+		},
+		{
+		"name": "View your History",
+		"url": "/"
+		}
+	],
 	"display_override": ["standalone", "fullscreen"],
 	"display": "minimal-ui",
 	"orientation": "natural",

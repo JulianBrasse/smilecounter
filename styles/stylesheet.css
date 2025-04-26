@@ -109,18 +109,21 @@ section {
 
 div {
 	display: flex;
-	flex-direction: row;
-	align-items: center;
+	flex-direction: column;
 }
 
 input {
-	margin: 1vh 0;
+	margin-top: 1vh;
 	background-color: var(--fill);
 }
 
-input[type="text"], input[type="submit"]{
+input[type="text"], input[type="submit"] {
 	padding: 0.5vh;
 	border-radius: 0.5vh;
+}
+
+input[type="checkbox"] {
+	margin-right: 0.5vh;
 }
 
 table {
@@ -145,7 +148,7 @@ thead th {
 }
 
 td {
-	padding: 1vh;
+	padding: 1.5vh;
 	border: 1px solid var(--content);
 	border-radius: 1vh;
 }

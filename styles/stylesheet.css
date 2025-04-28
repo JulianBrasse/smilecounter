@@ -57,9 +57,10 @@ nav {
 
 nav a {
 	margin-left: 1vh;
-	padding: 0.5vh;
+	padding: 1vh;
+	height: fit-content;
 	min-width: 8vh;
-	border-radius: 0.5vh;
+	border-radius: 1vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -71,7 +72,7 @@ main {
 	height: 100vh;
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: stretch;
 }
 
 h1 {
@@ -119,9 +120,9 @@ input {
 	background-color: var(--fill);
 }
 
-input[type="text"], input[type="submit"] {
-	padding: 0.5vh;
-	border-radius: 0.5vh;
+input[type="text"], input[type="submit"], input[type="color"] {
+	padding: 1vh;
+	border-radius: 1vh;
 }
 
 input[type="checkbox"] {
@@ -138,6 +139,10 @@ table {
 	border-spacing: 1vh;
 	border-radius: 1vh;
 	background-color: var(--fill);
+}
+
+table:not(:last-of-type) {
+	margin-right: 2vh;
 }
 
 th {
@@ -170,6 +175,11 @@ td {
 	& h1 {
 		display: none;
 	}
+}
+
+.history {
+	flex-direction: row;
+	overflow: scroll;
 }
 
 @media screen and (min-width: 600px) {

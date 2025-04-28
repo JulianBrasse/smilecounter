@@ -35,6 +35,7 @@ body {
 	margin: unset;
 	padding: unset;
 	border: unset;
+	outline: unset;
 	font-size: 2vh;
 	text-decoration: unset;
 	box-sizing: border-box;
@@ -118,15 +119,47 @@ label, legend {
 
 input {
 	background-color: var(--fill);
+	cursor: pointer;
 }
 
-input[type="text"], input[type="submit"], input[type="color"] {
+input:hover, .button:hover {
+	background-color: var(--secondary);
+}
+
+input[type="text"], input[type="submit"] {
 	padding: 1vh;
 	border-radius: 1vh;
 }
 
+input[type="color"] {
+	padding: 0.75vh;
+	width: unset;
+	height: 10vh;
+}
+
+input[type="color"]::-webkit-color-swatch {
+	border: unset;
+	border-radius: 0.5vh;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: unset;
+}
+
+input[type="checkbox"] {
+}
+
 input[type="checkbox"] {
 	margin: 0 0.5vh 0.5vh 0;
+	width: 2vh;
+	height: 2vh;
+	border-radius: 0.25vh;
+	appearance: none;
+}
+
+input[type="checkbox"]:checked {
+	background-image: url("https://vibecheck.ch/content/checkbox_rounded.svg");
+	background-color: var(--accent);
 }
 
 input:last-of-type {

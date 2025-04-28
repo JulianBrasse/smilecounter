@@ -135,6 +135,7 @@ input[type="color"] {
 	padding: 0.75vh;
 	width: unset;
 	height: 10vh;
+	border-radius: 1vh;
 }
 
 input[type="color"]::-webkit-color-swatch {
@@ -147,9 +148,6 @@ input[type="color"]::-webkit-color-swatch-wrapper {
 }
 
 input[type="checkbox"] {
-}
-
-input[type="checkbox"] {
 	margin: 0 0.5vh 0.5vh 0;
 	width: 2vh;
 	height: 2vh;
@@ -158,12 +156,16 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-	background-image: url("https://vibecheck.ch/content/checkbox_rounded.svg");
+	background-image: url("https://vibecheck.ch/content/checkbox.svg");
 	background-color: var(--accent);
 }
 
 input:last-of-type {
 	margin-bottom: 1vh;
+}
+
+input[type="submit"] {
+	margin: unset;
 }
 
 table {

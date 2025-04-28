@@ -46,11 +46,11 @@
 			<section>
 				<h3>VibeCheck</h3>
 				<form action="/" method="post" autocomplete="off">
-					<div>
+					<div class="formfield">
 						<label for="ask_amount">How happy are you?</label>
 						<input type="range" id="ask_amount" name="ask_amount" min="0" max="10" />
 					</div>
-					<div>
+					<div class="formfield">
 						<label for="ask_reason">Can you explain why?</label>
 						<input type="text" id="ask_reason" name="ask_reason" placeholder="Reasoning" />
 					</div>
@@ -68,7 +68,7 @@
 							<input type="checkbox" id="reason_sports" name="select_reason" value="sports" />
 							<label for="reason_sports">Sports</label>
 					</fieldset>
-					<div>
+					<div class="formfield">
 						<label for="choose_color">What color matches your emotion?</label>
 						<input type="color" id="choose_color" name="choose_color" value="#99eedd" />
 					</div>
@@ -78,36 +78,38 @@
 			</section>
 			<section>
 				<h3>SmileHistory</h2>
-				<table>
-					<thead><th colspan="7">January</th></thead>
-					<tr><th>Mon</th><td style="background-color:lightgreen;" /><td/><td/><td/><td/><td/></tr>
-					<tr><th>Tue</th><td/><td/><td/><td/><td/><td/></tr>
-					<tr><th>Wed</th><td/><td style="background-color:lightgreen;" /><td/><td/><td style="background-color:green;" /><td style="background-color:gold;" /></tr>
-					<tr><th>Thu</th><td style="background-color:orange;" /><td style="background-color:red;"/><td style="background-color:lightgreen;" /><td/><td/><td/></tr>
-					<tr><th>Fri</th><td/><td/><td/><td/><td/><td/></tr>
-					<tr><th>Sat</th><td/><td/><td/><td/><td/><td/></tr>
-					<tr><th>Sun</th><td/><td style="background-color:green;" /><td/><td/><td/><td/></tr>
-				</table>
-				<table>
-					<thead><th colspan="7">February</th></thead>
-					<tr><th>Mon</th><td style="background-color:lightgreen;" /><td/><td/><td/><td/><td/></tr>
-					<tr><th>Tue</th><td/><td/><td/><td/><td/><td/></tr>
-					<tr><th>Wed</th><td/><td style="background-color:lightgreen;" /><td/><td/><td style="background-color:green;" /><td style="background-color:gold;" /></tr>
-					<tr><th>Thu</th><td style="background-color:orange;" /><td style="background-color:red;"/><td style="background-color:lightgreen;" /><td/><td/><td/></tr>
-					<tr><th>Fri</th><td/><td/><td/><td/><td/><td/></tr>
-					<tr><th>Sat</th><td/><td/><td/><td/><td/><td/></tr>
-					<tr><th>Sun</th><td/><td style="background-color:green;" /><td/><td/><td/><td/></tr>
-				</table>
-				<table>
-					<thead><th colspan="7">March</th></thead>
-					<tr><th>Mon</th><td style="background-color:lightgreen;" /><td/><td/><td/><td/><td/></tr>
-					<tr><th>Tue</th><td/><td/><td/><td/><td/><td/></tr>
-					<tr><th>Wed</th><td/><td style="background-color:lightgreen;" /><td/><td/><td style="background-color:green;" /><td style="background-color:gold;" /></tr>
-					<tr><th>Thu</th><td style="background-color:orange;" /><td style="background-color:red;"/><td style="background-color:lightgreen;" /><td/><td/><td/></tr>
-					<tr><th>Fri</th><td/><td/><td/><td/><td/><td/></tr>
-					<tr><th>Sat</th><td/><td/><td/><td/><td/><td/></tr>
-					<tr><th>Sun</th><td/><td style="background-color:green;" /><td/><td/><td/><td/></tr>
-				</table>
+				<div class="history">
+					<table>
+						<thead><th colspan="7">January</th></thead>
+						<tr><th>Mon</th><td style="background-color:lightgreen;" /><td/><td/><td/><td/><td/></tr>
+						<tr><th>Tue</th><td/><td/><td/><td/><td/><td/></tr>
+						<tr><th>Wed</th><td/><td style="background-color:lightgreen;" /><td/><td/><td style="background-color:green;" /><td style="background-color:gold;" /></tr>
+						<tr><th>Thu</th><td style="background-color:orange;" /><td style="background-color:red;"/><td style="background-color:lightgreen;" /><td/><td/><td/></tr>
+						<tr><th>Fri</th><td/><td/><td/><td/><td/><td/></tr>
+						<tr><th>Sat</th><td/><td/><td/><td/><td/><td/></tr>
+						<tr><th>Sun</th><td/><td style="background-color:green;" /><td/><td/><td/><td/></tr>
+					</table>
+					<table>
+						<thead><th colspan="7">February</th></thead>
+						<tr><th>Mon</th><td style="background-color:lightgreen;" /><td/><td/><td/><td/><td/></tr>
+						<tr><th>Tue</th><td/><td/><td/><td/><td/><td/></tr>
+						<tr><th>Wed</th><td/><td style="background-color:lightgreen;" /><td/><td/><td style="background-color:green;" /><td style="background-color:gold;" /></tr>
+						<tr><th>Thu</th><td style="background-color:orange;" /><td style="background-color:red;"/><td style="background-color:lightgreen;" /><td/><td/><td/></tr>
+						<tr><th>Fri</th><td/><td/><td/><td/><td/><td/></tr>
+						<tr><th>Sat</th><td/><td/><td/><td/><td/><td/></tr>
+						<tr><th>Sun</th><td/><td style="background-color:green;" /><td/><td/><td/><td/></tr>
+					</table>
+					<table>
+						<thead><th colspan="7">March</th></thead>
+						<tr><th>Mon</th><td style="background-color:lightgreen;" /><td/><td/><td/><td/><td/></tr>
+						<tr><th>Tue</th><td/><td/><td/><td/><td/><td/></tr>
+						<tr><th>Wed</th><td/><td style="background-color:lightgreen;" /><td/><td/><td style="background-color:green;" /><td style="background-color:gold;" /></tr>
+						<tr><th>Thu</th><td style="background-color:orange;" /><td style="background-color:red;"/><td style="background-color:lightgreen;" /><td/><td/><td/></tr>
+						<tr><th>Fri</th><td/><td/><td/><td/><td/><td/></tr>
+						<tr><th>Sat</th><td/><td/><td/><td/><td/><td/></tr>
+						<tr><th>Sun</th><td/><td style="background-color:green;" /><td/><td/><td/><td/></tr>
+					</table>
+				</div>
 			</section>
 		</main>
 	</body>

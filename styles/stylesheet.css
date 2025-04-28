@@ -20,7 +20,7 @@
 	--primary: #012;
 	--secondary: #123;
 	--tertiary: #012;
-	--darkpurple: #316;
+/*	--tertiary: #316;*/
 	--content: #fff;
 	--fill: #666;
 	}
@@ -98,8 +98,9 @@ h6 {
 	font-size: 1.5vh;
 }
 
-p {
-	font-size: 2.5vh;
+p, label {
+	margin-bottom: 0.5vh;
+	font-size: 2vh;
 }
 
 section {

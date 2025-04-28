@@ -35,6 +35,7 @@ body {
 	margin: unset;
 	padding: unset;
 	border: unset;
+	font-size: 2.25vh;
 	text-decoration: unset;
 	box-sizing: border-box;
 	color: var(--content);
@@ -98,11 +99,6 @@ h6 {
 	font-size: 1.5vh;
 }
 
-p, label {
-	margin-bottom: 0.5vh;
-	font-size: 2vh;
-}
-
 section {
 	margin-top: 2vh;
 	padding: 2vh;
@@ -113,6 +109,10 @@ section {
 div {
 	display: flex;
 	flex-direction: column;
+}
+
+label {
+	margin-bottom: 0.5vh;
 }
 
 input {

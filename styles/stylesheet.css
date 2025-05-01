@@ -7,8 +7,8 @@
 	font-family: Archivo, ui-sans-serif, system-ui, sans-serif;
 	--accent: #9ed;
 	--primary: #9ed;
-	--tertiary: #ecf;
 	--secondary: #def;
+	--tertiary: #ecf;
 	--content: #000;
 	--fill: #fff;
 	overscroll-behavior-y: none;
@@ -173,7 +173,7 @@ table {
 	border: 1px solid var(--content);
 	border-spacing: 1vh;
 	border-radius: 1vh;
-	background-color: var(--fill);
+	background-color: var(--secondary);
 }
 
 table:not(:last-of-type) {

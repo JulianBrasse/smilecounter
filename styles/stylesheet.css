@@ -173,7 +173,7 @@ table {
 	border: 1px solid var(--content);
 	border-spacing: 1vh;
 	border-radius: 1vh;
-	background-color: var(--secondary);
+	background-color: var(--tertiary);
 }
 
 table:not(:last-of-type) {

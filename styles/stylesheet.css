@@ -156,7 +156,7 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-	background-image: url("https://vibecheck.ch/content/checkbox.svg");
+	background-image: url("/content/checkbox.svg");
 	background-color: var(--accent);
 }
 

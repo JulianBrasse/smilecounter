@@ -122,10 +122,6 @@ input {
 	cursor: pointer;
 }
 
-input:hover, nav a:hover {
-	background-color: var(--secondary);
-}
-
 input[type="text"], input[type="submit"] {
 	padding: 1vh;
 	border-radius: 1vh;
@@ -220,5 +216,9 @@ td {
 @media screen and (min-width: 600px) {
 	.logo h1 {
 		display: initial;
+	}
+	
+	input:hover, nav a:hover {
+		background-color: var(--secondary);
 	}
 }
